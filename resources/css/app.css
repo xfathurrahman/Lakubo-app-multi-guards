@@ -11,6 +11,11 @@
  |
  */
 @import "./_tailwind.css";
+@import "./components/app/main.css";
+@import "./components/app/footer.css";
+@import "./components/app/_carousel-promo.css";
+@import "./components/app/_carousel-category.css";
+@import "./components/app/_carousel-new-product.css";
 
 /*
  |--------------------------------------------------------------------------

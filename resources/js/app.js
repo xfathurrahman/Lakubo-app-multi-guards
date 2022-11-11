@@ -6,7 +6,9 @@
  | Import Midone built-in components.
  |
  */
+/*import '../css/app.css'*/
 import "./bootstrap";
+import 'flowbite'
 import "@left4code/tw-starter/dist/js/svg-loader";
 import "@left4code/tw-starter/dist/js/accordion";
 import "@left4code/tw-starter/dist/js/alert";
