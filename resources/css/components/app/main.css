@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #87d7b3;
+    --secondary-color: #118987;
+    --secondary-dark-color-navprim: #000000;
+    --secondary-dark-color-navsec: #282828;
+    --gray-color: rgb(205, 213, 218);;
+    --carousel-primary: #fa7070;
+    --navbar-primary: #ffffff;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --red-hover-color: #fa7d7d;
+    --dark-hover-color: #3e3e3e;
+    --font-blue: #41c4ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html , body {
+    overflow-x: hidden;
+}
+
+#main-app {
+    padding: 0;
+    margin: 0;
+    min-width: 500px;
+    background-color: rgba(238, 238, 238, 0.93);
+}
+
+
+/*MIN WIDHT*/
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+    .login-btn {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .search-input {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .search-input {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1526px) {
+    .search-input {
+        width: 700px;
+    }
+}
+
+
+/*MAX WIDHT*/
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1526px) {
+    .slick-wrapper .slick-prev{
+        top: -25%;
+    }
+    .slick-wrapper .slick-next{
+        top: -25%;
+    }
+}

@@ -1,0 +1,61 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app.2217010a.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers.d2428edb.js"
+    ],
+    "css": [
+      "assets/app.5f5283bb.css"
+    ]
+  },
+  "resources/js/ckeditor-classic.js": {
+    "file": "assets/ckeditor-classic.1eaae842.js",
+    "src": "resources/js/ckeditor-classic.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers.d2428edb.js"
+    ]
+  },
+  "resources/js/ckeditor-inline.js": {
+    "file": "assets/ckeditor-inline.0ab6250c.js",
+    "src": "resources/js/ckeditor-inline.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers.d2428edb.js"
+    ]
+  },
+  "resources/js/ckeditor-balloon.js": {
+    "file": "assets/ckeditor-balloon.9c71220d.js",
+    "src": "resources/js/ckeditor-balloon.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers.d2428edb.js"
+    ]
+  },
+  "resources/js/ckeditor-balloon-block.js": {
+    "file": "assets/ckeditor-balloon-block.d2eda120.js",
+    "src": "resources/js/ckeditor-balloon-block.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers.d2428edb.js"
+    ]
+  },
+  "resources/js/ckeditor-document.js": {
+    "file": "assets/ckeditor-document.5de39b09.js",
+    "src": "resources/js/ckeditor-document.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers.d2428edb.js"
+    ]
+  },
+  "__commonjsHelpers.d2428edb.js": {
+    "file": "assets/_commonjsHelpers.d2428edb.js"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.6f0076bf.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  }
+}
