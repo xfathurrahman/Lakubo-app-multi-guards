@@ -1,4 +1,4 @@
-@extends('../layout/' . $layout)
+@extends('../layout/dashboard/' . $layout)
 
 @section('head')
     <title>Login - Rubick - Tailwind HTML Admin Template</title>

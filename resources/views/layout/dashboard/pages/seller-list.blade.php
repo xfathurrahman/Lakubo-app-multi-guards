@@ -1,7 +1,7 @@
-@extends('../layout/' . $layout)
+@extends('../layout/dashboard/' . $layout)
 
 @section('subhead')
-    <title>Seller List - Midone - Tailwind HTML Admin Template</title>
+    <title>Lakubo - Daftar Pelaku UMKM</title>
 @endsection
 
 @section('subcontent')

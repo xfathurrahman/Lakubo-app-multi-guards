@@ -1,11 +1,11 @@
-@extends('../layout/main')
+@extends('../layout/dashboard/main')
 
 @section('head')
     @yield('subhead')
 @endsection
 
 @section('content')
-    @include('../layout/components/mobile-menu')
+    @include('../layout/dashboard/components/mobile-menu')
     <div class="flex mt-[4.7rem] md:mt-0">
         <!-- BEGIN: Side Menu -->
         <nav class="side-nav">
@@ -78,7 +78,7 @@
         <!-- END: Side Menu -->
         <!-- BEGIN: Content -->
         <div class="content">
-            @include('../layout/components/top-bar')
+            @include('../layout/dashboard/components/top-bar')
             @yield('subcontent')
         </div>
         <!-- END: Content -->

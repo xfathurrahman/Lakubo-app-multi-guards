@@ -1,4 +1,4 @@
-@extends('../layout/' . $layout)
+@extends('../layout/dashboard/' . $layout)
 
 @section('subhead')
     <title>Profile - Midone - Tailwind HTML Admin Template</title>
