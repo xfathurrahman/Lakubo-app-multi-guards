@@ -1,4 +1,4 @@
-@extends('layout.dashboard.base')
+@extends('../layout/dashboard/base')
 
 @section('body')
     <body class="login">

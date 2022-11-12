@@ -31,7 +31,7 @@ Route::get('/', [HomepageController::class, 'index']);
 Route::middleware('auth')->group(function() {
     Route::get('logout', [AuthController::class, 'logout'])->name('logout');
     Route::controller(PageController::class)->group(function() {
-        Route::get('dashboard', 'dashboardOverview1')->name('dashboard-overview-1');
+        Route::get('dashboard', 'dashboard')->name('dashboard');
         Route::get('categories-page', 'categories')->name('categories');
         Route::get('add-product-page', 'addProduct')->name('add-product');
         Route::get('product-list-page', 'productList')->name('product-list');

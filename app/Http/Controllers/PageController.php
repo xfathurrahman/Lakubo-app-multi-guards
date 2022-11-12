@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 class PageController extends Controller
 {
 
-    public function dashboardOverview1()
+    public function dashboard()
     {
         return view('layout.dashboard.pages.dashboard', [
             'layout' => 'side-menu'

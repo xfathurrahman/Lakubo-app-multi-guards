@@ -9,7 +9,7 @@ class SideMenu
         return [
             'dashboard-overview-1' => [
                 'icon' => 'home',
-                'route_name' => 'dashboard-overview-1',
+                'route_name' => 'dashboard',
                 'params' => [
                     'layout' => 'side-menu',
                 ],
