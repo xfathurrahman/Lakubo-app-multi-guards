@@ -1,4 +1,4 @@
-@extends('layout.app.base')
+@extends('../layout/app/base')
 
 @section('body')
     <body id="main-app">

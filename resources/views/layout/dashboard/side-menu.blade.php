@@ -9,10 +9,10 @@
     <div class="flex mt-[4.7rem] md:mt-0">
         <!-- BEGIN: Side Menu -->
         <nav class="side-nav">
-            <a href="" class="intro-x flex items-center pl-5 pt-4">
+            <a href="http://127.0.0.1:8000/" class="intro-x flex items-center pl-5 pt-4">
                 <img alt="Midone - HTML Admin Template" class="w-6" src="{{ asset('build/assets/images/logo.svg') }}">
                 <span class="hidden xl:block text-white text-lg ml-3">
-                    Rubick
+                    Lakubo
                 </span>
             </a>
             <div class="side-nav__devider my-6"></div>

@@ -1,5 +1,5 @@
 <div class="container xl:px-32 flex flex-wrap items-center mx-auto">
-    <a href="#" class="flex items-center">
+    <a href="http://127.0.0.1:8000/" class="flex items-center">
         <img src="{{ asset('assets/images/app/cowlogo.svg') }}" class="mx-3 h-6 sm:h-9" alt="Flowbite Logo">
         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Lakubo</span>
     </a>
@@ -71,10 +71,12 @@
                 Masuk
                 </button>
             </a>
-            <button type="button"
-                    class="login-btn ml-2 hidden text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
-                Daftar
-            </button>
+            <a href="{{route('register.index')}}">
+                <button type="button"
+                        class="login-btn ml-2 hidden text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    Daftar
+                </button>
+            </a>
         </div>
 
     </div>

@@ -7,25 +7,21 @@ use App\Http\Controllers\Controller;
 
 class AuthController extends Controller
 {
-    /**
-     * Show specified view.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function loginView()
     {
-        return view('login.main', [
-            'layout' => 'login'
+        return view('layout.auth.login.index', [
+            'layout' => 'auth.main'
         ]);
     }
 
-    /**
-     * Authenticate login user.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+    public function registerView()
+    {
+        return view('layout.auth.register.index', [
+            'layout' => 'auth.main'
+        ]);
+    }
+
     public function login(LoginRequest $request)
     {
         if (!\Auth::attempt([
@@ -36,12 +32,6 @@ class AuthController extends Controller
         }
     }
 
-    /**
-     * Logout user.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function logout()
     {
         \Auth::logout();

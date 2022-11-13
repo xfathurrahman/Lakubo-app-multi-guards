@@ -36,7 +36,7 @@
             <div id="sc-category-carousel">
                 {{--@foreach($listcategories as $listcategory)--}}
                 <div class="item">
-                    <a href="{{--{{ url('view-category').'/'.Str::slug($listcategory -> name) }}--}}#" class="card text-black" style="text-decoration: none">
+                    <a href="{{ route('category-detail') }}#" class="card text-black" style="text-decoration: none">
                         <img class="image-product" src="{{ asset("assets/images/app/game.jpg")}}" alt="category-image">
                         <div class="card-body text-center">
                             <p>zzz</p>
@@ -181,7 +181,7 @@
                             </button>
                         </button>
                     </div>--}}
-                    <a class="a-link" href="#">
+                    <a class="a-link" href="{{ route('product-detail') }}">
                         <img class="image-product" src="{{ asset("assets/images/app/game.jpg") }}" alt="admin">
                         <div class="card-body p-2">
                             <div class="tag-price">

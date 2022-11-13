@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
-class PageController extends Controller
+class DashboardController extends Controller
 {
 
     public function dashboard()
@@ -57,5 +57,9 @@ class PageController extends Controller
     public function changePassword()
     {
         return view('layout.dashboard.pages.change-password');
+    }
+    public function register()
+    {
+        return view('layout.dashboard.pages.register');
     }
 }
