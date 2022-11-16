@@ -19,11 +19,12 @@ class UserSeeder extends Seeder
         \App\Models\User::insert([
             [ 
                 'name' => 'Left4code',
-                'email' => 'midone@left4code.com',
+                'phone' => '081234567890',
+                'email' => 'fathur@lakubo.com',
                 'email_verified_at' => now(),
                 'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-                'gender' => 'male',
-                'active' => 1,
+                /*'gender' => 'male',
+                'active' => 1,*/
                 'remember_token' => Str::random(10)
             ]
         ]);

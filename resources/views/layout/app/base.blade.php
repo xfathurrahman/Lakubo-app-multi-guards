@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lakubo - Lapak UMKM Boyolali</title>
+    <meta name="description" content="Lakubo - Lapak UMKM Boyolali">
+    <meta name="keywords" content="umkm boyolali, web app">
+    <meta name="author" content="Fathurrahman">
+    @yield('head')
     @vite(['resources/css/app.css'])
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.theme.default.css') }}">

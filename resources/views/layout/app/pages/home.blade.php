@@ -1,5 +1,9 @@
 @extends('layout.app.main')
 
+@section('head')
+    <title>Lakubo - Lapak UMKM Boyolali</title>
+@endsection
+
 @section('content')
     <div class="main-carousel-promo carousel mb-2">
         <div class="owl-carousel owl-theme owl-wrapper carousel-promo">

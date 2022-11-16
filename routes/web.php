@@ -21,10 +21,14 @@ use App\Http\Controllers\ColorSchemeController;
 Route::get('dark-mode-switcher', [DarkModeController::class, 'switch'])->name('dark-mode-switcher');
 Route::get('color-scheme-switcher/{color_scheme}', [ColorSchemeController::class, 'switch'])->name('color-scheme-switcher');
 
+Route::post('getkabupaten', [AuthController::class,'getkabupaten'])->name('getkabupaten');
+Route::post('getkecamatan', [AuthController::class,'getkecamatan'])->name('getkecamatan');
+Route::post('getdesa', [AuthController::class,'getdesa'])->name('getdesa');
+
 Route::controller(AuthController::class)->middleware('loggedin')->group(function() {
+    Route::post('login', 'login')->name('login.check');
     Route::get('login', 'loginView')->name('login.index');
     Route::get('register', 'registerView')->name('register.index');
-    Route::post('login', 'login')->name('login.check');
 });
 
 Route::get('/', [HomepageController::class, 'index']);

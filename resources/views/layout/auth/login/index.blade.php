@@ -1,4 +1,4 @@
-@extends('../layout/' . $layout)
+@extends('layout.auth.main')
 
 @section('head')
     <title>Login - Lakubo - Lapak UMKM Boyolali</title>
@@ -16,7 +16,7 @@
                     </span>
                 </a>
                 <div class="my-auto">
-                    <img alt="Midone - HTML Admin Template" class="-intro-x w-1/2 -mt-16" src="{{ asset('build/assets/images/dukung-umkm.png') }}">
+                    <img alt="Lakubo - Lapak UMKM Boyolali" class="-intro-x w-1/2 -mt-16" src="{{ asset('build/assets/images/dukung-umkm.png') }}">
                     <div class="-intro-x text-white font-medium text-4xl leading-tight mt-2">Beberapa langkah untuk <br> Masuk ke akunmu.</div>
                     <div class="-intro-x mt-5 text-lg text-white text-opacity-70 dark:text-slate-400">Lakubo - Lapak UMKM Boyolali</div>
                 </div>
@@ -29,7 +29,7 @@
                     <div class="intro-x mt-2 text-slate-400 xl:hidden text-center">Beberapa langkah untuk Masuk ke akunmu. Lakubo - Lapak UMKM Boyolali</div>
                     <div class="intro-x mt-8">
                         <form id="login-form">
-                            <input id="email" type="text" class="intro-x login__input form-control py-3 px-4 block" placeholder="Email" value="midone@left4code.com">
+                            <input id="email" type="text" class="intro-x login__input form-control py-3 px-4 block" placeholder="Email" value="fathur@lakubo.com">
                             <div id="error-email" class="login__input-error text-danger mt-2"></div>
                             <input id="password" type="password" class="intro-x login__input form-control py-3 px-4 block mt-4" placeholder="Kata Sandi" value="password">
                             <div id="error-password" class="login__input-error text-danger mt-2"></div>

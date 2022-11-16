@@ -14,10 +14,10 @@
             @include('layout.App.components.footer')
         </footer>
 
-        <script src="{{ asset('js/jquery-3.6.1.js') }}"></script>
-        <script src="{{ asset('js/owl.carousel.js') }}"></script>
-        <script src="{{ asset('js/slick.min.js') }}"></script>
-        <script src="{{ asset('js/flowbite.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery-3.6.1.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/owl.carousel.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/slick.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/flowbite.js') }}"></script>
         @yield('script')
     </body>
 
